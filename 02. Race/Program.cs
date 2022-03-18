@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace _02._Race
@@ -16,12 +17,19 @@ namespace _02._Race
             {
                 string currentParticipant = "";
                 int totalDistance = 0;
-
-                Regex regex1 = new Regex(@"([\d])");
-                MatchCollection distances = regex1.Matches(input);
+                Regex regex1 = new Regex(@"(?<name>[A-Za-z]+)");
+                MatchCollection name = regex1.Matches(input);
+                Regex regex2 = new Regex(@"([\d])");
+                MatchCollection distances = regex2.Matches(input);
                 foreach (var participant in participants)
                 {
-                    if (input.Contains(participant[0]))
+                StringBuilder name1 = new StringBuilder();
+
+                    foreach (Match item in name)
+                    {
+                        name1.Append(item.Value);
+                    }
+                    if (participant == name1.ToString())
                     {
                         currentParticipant = participant;
                         foreach (Match match in distances)

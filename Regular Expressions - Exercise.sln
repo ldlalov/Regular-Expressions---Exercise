@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Furniture", "01. Furniture\01. Furniture.csproj", "{B4B0DEE9-9C50-458B-84CD-60DA78ED807B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Furniture", "01. Furniture\01. Furniture.csproj", "{B4B0DEE9-9C50-458B-84CD-60DA78ED807B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Race", "02. Race\02. Race.csproj", "{BA3ED492-4B0A-4A5D-98FE-6CFD6BF0FEAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Race", "02. Race\02. Race.csproj", "{BA3ED492-4B0A-4A5D-98FE-6CFD6BF0FEAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. SoftUni Bar Income", "03. SoftUni Bar Income\03. SoftUni Bar Income.csproj", "{0E27BEF6-3426-4217-8E45-B600C613E1F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. SoftUni Bar Income", "03. SoftUni Bar Income\03. SoftUni Bar Income.csproj", "{0E27BEF6-3426-4217-8E45-B600C613E1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Star Enigma", "04. Star Enigma\04. Star Enigma.csproj", "{2A6AA803-564F-498E-A9C0-689C05B75396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Star Enigma", "04. Star Enigma\04. Star Enigma.csproj", "{2A6AA803-564F-498E-A9C0-689C05B75396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Nether Realms", "05. Nether Realms\05. Nether Realms.csproj", "{C714B6C4-60C4-4FFD-87F5-6CFE84051AEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Nether Realms", "05. Nether Realms\05. Nether Realms.csproj", "{C714B6C4-60C4-4FFD-87F5-6CFE84051AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Extract Emails", "06. Extract Emails\06. Extract Emails.csproj", "{E858B0AD-CFCA-4934-B0EE-31B27D900A89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C714B6C4-60C4-4FFD-87F5-6CFE84051AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C714B6C4-60C4-4FFD-87F5-6CFE84051AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C714B6C4-60C4-4FFD-87F5-6CFE84051AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E858B0AD-CFCA-4934-B0EE-31B27D900A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E858B0AD-CFCA-4934-B0EE-31B27D900A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E858B0AD-CFCA-4934-B0EE-31B27D900A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E858B0AD-CFCA-4934-B0EE-31B27D900A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
